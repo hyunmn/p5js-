@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html lang="en">
+<html> 
+    <head>
+        <title>Germany</title>
+        <h1>GERMANY</h1>
+        <style>
+            body{font-family: Futura, sans-serif; 
+                font-size: 2em;
+                margin: 5%;
+                width:90%; 
+            }
+            h1{font-size: 2.5em; 
+                text-align: center;
+                line-height: 1.0em;
+            }
+            
+            div.main{
+                display: flex; 
+                justify-content:center; 
+                align-content:center; 
+                flex-wrap:wrap; 
+ 
+            }
+
+            div.child{
+                display: flex;
+                width: 250px; 
+                height: 250px; 
+                background-color:pink;
+                margin: 10px; 
+                align-items: center; 
+                justify-content:center; 
+            }
+
+            div.no{
+                display: flex;
+                width: 250px; 
+                height: 250px; 
+                background-color:lightgrey;
+                margin: 10px; 
+                align-items: center; 
+                justify-content:center; 
+            }
+
+            .child:hover{
+               background-color: lightskyblue; 
+               transform: scale(1.2); 
+            }
+            ::selection{
+                background-color:lightseagreen; 
+            }
+            .child:active{
+                background-color:lightyellow;}
+
+        </style>
+    </head>
+
+    <body> 
+    <div class="main">
+        <div class="child">
+            <p>Aachen</p>
+        </div> 
+        <div class="child">
+            <p>Berlin</p>
+        </div>
+        <div class="no">
+            <p>Dortmund</p>
+        </div>
+        <div class="child">
+            <p>D&uuml;sseldorf</p>
+        </div> 
+        <div class="child">
+            <p>Frankfurt</p>
+        </div> 
+        <div class="no">
+            <p>Hamburg</p>
+        </div>
+        <div class="child">
+            <p>K&ouml;ln</p>
+        </div>
+        <div class="no">
+             <p>M&uuml;nchen</p>
+        </div>
+    </div>   
+    </body>
+</html>
